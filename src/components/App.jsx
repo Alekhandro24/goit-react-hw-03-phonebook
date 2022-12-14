@@ -4,7 +4,7 @@ import { ContactForm } from 'components/ContactForm/ContactForm';
 import { Filter } from 'components/Filter/Filter';
 import { ContactList } from 'components/ContactList/ContactList';
 import PropTypes from 'prop-types';
-import { findRenderedDOMComponentWithClass } from 'react-dom/test-utils';
+
 
 export class App extends Component {
   static defaultProps = {
